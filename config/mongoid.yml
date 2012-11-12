@@ -21,8 +21,8 @@ production:
   database: locomotive_prod
 
   # other settings for production
-  host: <%= ENV['MONGOID_HOST'] %>
-  port: <%= ENV['MONGOID_PORT'] %>
+  # host: <%= ENV['MONGOID_HOST'] %>
+  # port: <%= ENV['MONGOID_PORT'] %>
   # username: <%= ENV['MONGOID_USERNAME'] %>
   # password: <%= ENV['MONGOID_PASSWORD'] %>
   # database: <%= ENV['MONGOID_DATABASE'] %>
@@ -31,4 +31,4 @@ production:
   uri: <%= ENV['MONGOHQ_URL'] %>
 
   # bushido (mongohq_url will also work)
-  uri: <%= ENV['MONGODB_URL'] %>
+  # uri: <%= ENV['MONGODB_URL'] %>
