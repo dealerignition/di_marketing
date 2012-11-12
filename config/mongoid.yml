@@ -17,12 +17,12 @@ test:
 
 # set these environment variables on your prod server
 production:
-  # <<: *defaults
-  # database: locomotive_prod
+  <<: *defaults
+  database: locomotive_prod
 
   # other settings for production
-  # host: <%= ENV['MONGOID_HOST'] %>
-  # port: <%= ENV['MONGOID_PORT'] %>
+  host: <%= ENV['MONGOID_HOST'] %>
+  port: <%= ENV['MONGOID_PORT'] %>
   # username: <%= ENV['MONGOID_USERNAME'] %>
   # password: <%= ENV['MONGOID_PASSWORD'] %>
   # database: <%= ENV['MONGOID_DATABASE'] %>
