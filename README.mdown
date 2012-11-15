@@ -2,6 +2,6 @@
 
 ## Running the app
   
-* Ensure MongoDB is running with `mongo`
+* Ensure MongoDB is running with `mongod`
 * Run the app with `bundle exec unicorn_rails`
 * You can then view locomotive at `localhost:8080/locomotive`
